@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title> Our Services </title>
+     <link href='https://fonts.googleapis.com/css?family=Bigshot One' rel='stylesheet'>
+     <link href='https://fonts.googleapis.com/css?family=Average Sans' rel='stylesheet'>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <meta name="LYF Services" content="Services">
+     <meta name="author" content="YZW">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <!---CSS style--->
+	 <style>
+        body
+        {
+	     background-image: linear-gradient(rgba(248,248,255,0.8),rgba(248,248,255,0.2)),url('Servicesbg.jpg');
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+         background-size: cover;
+	     background-position: center;
+	     position: relative;
+	     overflow: scroll;
+        }
+         /*---NavigationBar---*/
+       .nav-bar
+        {
+	     max-width: 95%;
+	     margin: auto;
+	     font-family: 'Bigshot One';
+	     font-size: 24px;
+	     margin: 0;
+         padding: 0;
+	     display: flex;
+        }
+        .logo img
+        {
+	     margin-top: 12px;
+	     margin-left: 20px;
+	     float:left;
+	     width: 60px;
+	     height: auto;
+        }
+        .nav-link
+        {
+	     flex:1;
+        }
+        .nav-link ul
+        {
+	     float:right;
+	     margin-top: 25px;
+	     overflow: hidden;
+	     position: relative;
+	     display: inline;
+	     background-color: white;
+        }
+        .nav-link ul li
+        {
+	     list-style-type: none;
+	     display: inline-block;
+	     padding: 2px 5px;
+        }	 
+        .nav-link ul li a
+        {
+	     text-decoration: none;
+	     color: black;
+	     padding: 0 10px;
+        }
+        ul li a:hover
+        {
+	     background-color: #FFFAF0;
+	     color: gray;
+        }
+        ul li.active a
+        {
+	     background-color: #DC143C;
+	     color: white;
+        }
+         /*---Content---*/
+        .title
+        {
+	     position: relative;
+         left: 3%;
+         top: 50px;
+	     max-width: 95%;
+        }
+        .title h1
+        {
+	     font-family: 'Bigshot One';
+	     color: black;
+	     font-size: 30px;
+	     margin: 0 100px;
+        }
+        .title p
+        {
+	     font-family: 'Average Sans';
+	     margin: 0 100px;
+	     color: black;
+	     font-size: 22px;
+	     text-align: justify;
+        }
+		.title ul
+		{
+		 left: 5%;
+		 font-family: 'Average Sans';
+	     margin: 0 100px;
+	     color: black;
+	     font-size: 20px;
+		 padding: 5px 5px;
+        }
+		.title ul li
+        {
+	     list-style-type: square;
+		 text-decoration: none;
+	     color: black;
+		 padding: 2px 0;
+        }
+        .title img
+        {
+		 position: relative;
+		}
+		.bmi
+		{
+		 left: 8%;
+		}
+		.guai
+		{
+		 left: 8%;
+		 padding-right: 250px;
+		}
+		.bmi2
+		{
+		 box-shadow: 6px 6px 5px pink;
+		}
+		.bmi2:hover
+		{
+		 box-shadow: 5px 5px 5px gray;
+		}
+		.fitnessweb
+		{
+		 box-shadow: 5px 5px 5px pink;
+		}
+		.fitnessweb:hover
+		{
+		 box-shadow: 5px 5px 5px gray;
+		}
+		.fitnessapp
+		{
+		 padding: 5px 5px;
+		 
+		}
+		.fitnessvid
+		{
+		 position: relative;
+		 float: right;
+		 padding-right: 5px;
+		}
+         /*---Button---*/
+        .button1
+        { 
+	     border-radius: 5px;
+	     background-color: white;
+	     border: 1px solid white;
+	     color: black;
+	     box-shadow: 5px 5px 5px gray;
+	     display: inline-block;
+	     margin-bottom: 10px;
+	     cursor: pointer;
+	     position: relative;
+	     left: 10%;
+         top: 30px;
+	     padding: 2px 10px;
+	     text-align: center;
+	     text-decoration: none;
+	     text-shadow: 2px 2px 3px gray;
+	     font-family: 'Bigshot One';
+	     font-size: 22px;
+        }
+        .button1:hover
+        {
+	     border-radius: 5px;
+	     border: #FFFAF0;
+	     background-color: #FFFAF0;
+	     color: gray;
+	     text-shadow: 2px 2px 2px pink;
+		 box-shadow: 5px 5px 5px pink;
+        }
+        .button2
+        {
+	     border-radius: 5px;
+	     background-color: white;
+	     border: 1px solid white;
+	     color: black;
+	     box-shadow: 5px 5px 5px gray;
+	     display: inline-block;
+	     margin-bottom: 10px;
+	     cursor: pointer;
+	     position: relative;
+	     left: 75%;
+         top: 30px;
+	     padding: 2px 10px;
+	     text-align: center;
+	     text-decoration: none;
+	     text-shadow: 2px 2px 3px gray;
+	     font-family: 'Bigshot One';
+	     font-size: 22px;
+        }
+        .button2:hover
+        {
+	     border-radius: 5px;
+	     border: #FFFAF0;
+	     background-color: #FFFAF0;
+	     color: gray;
+	     text-shadow: 2px 2px 2px pink;
+		 box-shadow: 5px 5px 5px gray;
+        }
+		.button3
+		{
+		 text-decoration: none;
+		}
+		.button3:hover
+		{
+		 text-decoration: underline;
+		 color: blue;
+		}
+	 </style>
+ </head>
+ <body>
+  <header>
+   <!---NavigationBar--->
+<div class="nav-bar">
+      <div class="logo">
+	     <a href="LYF Home.html"><img src="LYF Logo.png" alt="LYF LOGO"></a>
+	  </div>
+	  <div class="nav-link">
+        <ul>
+	      <li class="nav-link">
+             <a class="home" href="LYF Home.html">Home</a>
+          </li>
+          <li class="nav-link">
+             <a class="about_us" href="LYF About Us.html">About Us</a>
+          </li>
+	      <li class="nav-link active">
+             <a class="services" href="LYF Services.html">Services</a>
+	      </li>
+	      <li class="nav-link">
+             <a class="products" href="LYF Products.html">Products</a>
+          </li>
+	      <li class="nav-link">
+             <a class="our_team" href="LYF Home.html#section2">Our Team</a>
+          </li>
+	      <li class="nav-link">
+             <a class="corporate" href="LYF Home.html#section3">Corporate</a>
+	      </li>
+	      <li class="nav-link">
+             <a class="contact_us" href="LYF Home.html#section4">Contact Us</a>
+          </li>
+	    </ul>
+		</div>
+	</div>
+  </header>
+    <!---Button--->
+    <div class="button">
+	 <a class="button1" href="LYF Recipes.html"><i class="fa fa-angle-double-left"></i> Recipes</a>
+	 <a class="button2" href="LYF Workouts.html">Workouts <i class="fa fa-angle-double-right"></i></a>
+	</div>
+	<!---Content--->
+	<div class="title">
+	<!---This information is get from website "https://www.calculator.net/bmi-calculator.html"--->
+	 <h1> Body Mass Index?</h1>
+	 <br>
+	 <img class="bmi" src="bmi.jpg" alt="bmi" height="200" width="auto">
+	 <p class="introp">
+	 <b>BMI</b> is a measurement of a person's leanness or corpulence based on their height and weight, and is intended to quantify tissue mass. 
+	 It is widely used as a general indicator of whether a person has a healthy body weight for their height. 
+	 Specifically, the value obtained from the calculation of BMI is used to categorize a person under <b>underweight, normal weight, overweight, or obese</b> depending on what range the value falls between. 
+	 These ranges of BMI vary based on factors such as region and age, and are sometimes further divided into subcategories such as severely underweight or very severely obese.
+	 </p>
+	 <br>
+	 <h1>Risks associated with being overweight</h1>
+	 <br>
+	 <p class="introp">
+	 Being overweight increases the risk of a number of serious diseases and health conditions.
+	 Below is a list of risks according to the <b>Centers for Disease Control and Prevention (CDC):</b>
+	 </p>
+	 <br>
+	 <ul class="intro ul">
+	     <li><b>High blood pressure</b></li>
+	     <li><b>Higher levels of LDL cholesterol</b>,"bad cholesterol" and high levels of triglycerides</li>
+	     <li><b>Type II diabetes</b></li>
+		 <li><b>Coronary heart disease</b></li>
+		 <li><b>Stroke</b></li>
+		 <li><b>Gallbladder disease</b></li>
+		 <li><b>Osteoarthritis</b>, a type of joint disease caused by breakdown of joint cartilage </li>
+	     <li><b>Sleep apnea and breathing problems</b></li>
+	     <li><b>Certain cancers</b> such as endometrial, breast, colon, kidney, gallbladder, liver</li>
+	     <li><b>Mental illnesses</b> such as clinical depression, anxiety, and others</li>
+	     <li><b>Body pains and difficulty with certain physical functions</b></li>
+	 </ul>
+	 <br>
+	 <p class="introp">
+	 Generally, an increased risk of mortality and give a numerous negative outcomes compared to those with a healthy BMI
+	 A person should try to maintain a <b>BMI below 25 kg/m2</b>, but ideally should consult their doctor to determine whether or not they need to make any changes to their lifestyle in order to be healthier.
+	 </p>
+	 <br>
+	 <h1>Risks associated with being underweight</h1>
+	 <br>
+	 <p class="introp">Being underweight has its own associated risks, listed below:</p>
+	 <br>
+	 <ul class="intro ul">
+	     <li><b>Malnutrition, vitamin deficiencies, anemia</b></li>
+	     <li><b>Osteoporosis</b>, a disease that causes bone weakness, increasing the risk of breaking a bone</li>
+	     <li><b>A decrease in immune function</b></li>
+		 <li><b>Growth and development issues, particularly in children and teenagers</b></li>
+		 <li>Possible <b>reproductive issues for women due to hormonal imbalances</b>.Underweight women also have a higher chance of miscarriage in the first trimester</li>
+	 </ul>
+	 <br>
+	 <p class="introp">
+	 Generally, an increased risk of mortality compared to those with a healthy BMI.
+	 In some cases, being underweight can be a sign of some underlying condition or disease such as anorexia nervosa, which has its own risks.
+	 Consult your doctor if you think you or someone you know is underweight, particularly if the reason for being underweight does not seem obvious.
+	 </p>
+	 <br>
+	 <h1>Limitations of BMI</h1>
+	 <br>
+	 <p class="introp">
+	     Although BMI is a widely used and useful indicator of healthy body weight, it does have its limitations. 
+		 BMI is only an estimate that cannot take body composition into account. 
+		 Due to a wide variety of body types as well as distribution of muscle, bone mass, and fat, BMI should be considered along with other measurements rather than being used as the sole method for determining a person's healthy body weight.
+	 <br>
+	 <br>
+	 <b><u>In adults:</b></u>
+	 <br>
+         BMI cannot be fully accurate because it is a measure of excess body weight, rather than excess body fat. 
+         BMI is further influenced by factors such as age, sex, ethnicity, muscle mass, and body fat, and activity level, among others. 
+         For example, an older person who is considered a healthy weight, but is completely inactive in their daily life may have significant amounts of excess body fat even though they are not heavy.
+         This would be considered unhealthy, while a younger person with higher muscle composition of the same BMI would be considered healthy. 
+         In athletes, particularly bodybuilders who would be considered overweight due to muscle being heavier than fat, it is entirely possible that they are actually at a healthy weight for their body composition. 
+         Generally, according to the CDC:
+     </p>
+	 <br>
+	 <ul class="intro ul">
+	     <li>Older adults tend to have more body fat than younger adults with the same BMI.</li>
+	     <li>Women tend to have more body fat than men for an equivalent BMI.</li>
+	     <li>Muscular individuals and highly trained athletes may have higher BMIs due to large muscle mass.</li>
+     </ul>
+	 <br>
+	 <p class="introp">
+	 <b><u>In children and adolescents:</b></u>
+	 <br>
+         The same factors that limit the efficacy of BMI for adults can also apply to children and adolescents. 
+		 Additionally, height and level of sexual maturation can influence BMI and body fat among children. 
+		 BMI is a better indicator of excess body fat for obese children than it is for overweight children, whose BMI could be a result of increased levels of either fat or fat-free mass (all body components except for fat, which includes water, organs, muscle, etc.). 
+		 In thin children, the difference in BMI can also be due to fat-free mass.
+     <br>
+	 <br>
+         That being said, BMI is fairly indicative of body fat for 90-95% of the population, and can effectively be used along with other measures to help determine an individual's healthy body weight.
+	 </p>
+	 <br>
+	 <!---This is refer to the website "https://www.healthhub.sg/programmes/93/bmi-calculator"--->
+	 <h1><u>Body Mass Calculator</u></h1>
+	 <br>
+	 <img class="guai" src="guai.gif" alt="press here" height="150" width="auto">
+	 <a href="https://www.healthhub.sg/programmes/93/bmi-calculator" target="_blank"><img class="bmi2" src="bmi2.jpg" alt="bmi calulator" height="200" width="auto"></a>
+	</div>
+	 <br>
+	 <!---This information is from the website "https://www.healthline.com/nutrition/5-best-calorie-counters#TOC_TITLE_HDR_3"--->
+	<div class="title">
+	 <h1><u>Calories Counter - My FitnessPal</u></h1>
+	 <br>
+	 <p class="introp">
+	     <a href="https://www.myfitnesspal.com/" target="_blank"><img class="fitnessweb" src="fitnessweb.jpg" alt="fitnessweb logo" height="50" width="auto"></a>
+	 <br>
+         MyFitnessPal is one of the most popular calorie counters right now.
+     <br>
+     <br>
+		 It tracks user's weight and calculates a recommended daily calorie intake. 
+		 It also contains a well-designed food diary and an exercise log.
+		 The homepage provides a clear picture of how many calories you’ve consumed during the day. 
+		 In addition, it shows the remaining recommended intake and the number of calories you’ve burned by exercising.
+		 MyFitnessPal can likely sync with fitness tracking device to include its data in the exercise log.
+	 <br>
+	 <br>
+		 The app tracks user's progress towards their goals and offers chat forums with other users. 
+		 MyFitnessPal’s nutrition database is very extensive, containing over 5 million foods. 
+		 The app even saves user's favorite meals for convenient logging.
+	 <br>
+	 <br>
+		 Additionally, MyFitnessPal’s barcode scanner allows users to instantly enter the nutrition information of some packaged foods.
+		 Summerize the daily consumption in a pie chart, showing the breakdown of carbs, protein, fat and water. 
+		 Users can write a note to record how things went or how you were feeling for a day.
+		 MyFitnessPal does offer a free version. However, some of its features can only be accessed in the premium version. 
+	 <br>
+	 <br>
+		 <b><u>Pros:</u></b>
+	 </p>
+	 <ul class="intro ul">
+	     <li>The largest database available in a diet tracker and includes many restaurant foods.</li>
+	     <li>Recipes can be downloaded from the internet with the calculated calorie content of each serving.</li>
+	     <li>Can “quick add” calories if you don’t have the details about a certain meal.</li>
+     </ul>
+	<p class="introp">
+		 <b><u>Cons:</u></b>
+	 </p>
+	 <ul class="intro ul">
+	     <li>The calorie count may not be entirely accurate because most foods are uploaded by other users. Multiple entries may exist for the same product.</li>
+	     <li>Serving sizes in the database may be hard to edit for smaller or larger portion of foods.</li>
+     </ul>
+	 <p class="introp">
+	 <img class="fitnessapp" src="fitnessapp.jpg" alt="fitnessapp logo" height="50" width="auto">
+	 <iframe class="fitnessvid" src="https://www.youtube-nocookie.com/embed/fu9RKqlmD1Q?rel=0" width="560" height="400" frameborder="0" allowfullscreen></iframe>
+	 <br>
+	 <a class="button3" href="https://itunes.apple.com/us/app/calorie-counter-diet-tracker/id341232718" target="_blank">Iphone App</a>
+	 <br>
+	 <a class="button3" href="https://play.google.com/store/apps/details?id=com.myfitnesspal.android" target="_blank">Andriod App</a>
+	 </p>
+	</div>
+ </body>
+</html>

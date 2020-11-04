@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title> Workouts </title>
+     <link href='https://fonts.googleapis.com/css?family=Bigshot One' rel='stylesheet'>
+     <link href='https://fonts.googleapis.com/css?family=Average Sans' rel='stylesheet'>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <meta name="LYF Workouts" content="Workouts">
+     <meta name="author" content="YZW">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <style>
+        body
+        {
+	     background-image: linear-gradient(rgba(248,248,255,0.5),rgba(248,248,255,0.2)),url('Workoutsbg.jpg');
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+         background-size: cover;
+	     background-position: center;
+	     position: relative;
+	     overflow: scroll;
+        }
+         /*---NavigationBar---*/
+       .nav-bar
+        {
+	     max-width: 95%;
+	     margin: auto;
+	     font-family: 'Bigshot One';
+	     font-size: 24px;
+	     margin: 0;
+         padding: 0;
+	     display: flex;
+        }
+        .logo img
+        {
+	     margin-top: 12px;
+	     margin-left: 20px;
+	     float:left;
+	     width: 60px;
+	     height: auto;
+        }
+        .nav-link
+        {
+	     flex:1;
+        }
+        .nav-link ul
+        {
+	     float:right;
+	     margin-top: 25px;
+	     overflow: hidden;
+	     position: relative;
+	     display: inline;
+	     background-color: white;
+        }
+        .nav-link ul li
+        {
+	     list-style-type: none;
+	     display: inline-block;
+	     padding: 2px 5px;
+        }	 
+        .nav-link ul li a
+        {
+	     text-decoration: none;
+	     color: black;
+	     padding: 0 10px;
+        }
+        ul li a:hover
+        {
+	     background-color: #FFFAF0;
+	     color: gray;
+        }
+        ul li.active a
+        {
+	     background-color: #DC143C;
+	     color: white;
+        }
+         /*---Content---*/
+        .title
+        {
+	     position: relative;
+         top: 50px;
+	     max-width: 95%;
+		 column-count: 2;
+        }
+        .title h1
+        {
+		 position: relative;
+		 left: 20%;
+	     font-family: 'Bigshot One';
+	     color: black;
+	     font-size: 30px;
+	     margin: 2px 2px 5px 0;
+        }
+        .title p
+        {
+		 position: relative;
+		 left: 20%;
+	     font-family: 'Average Sans';
+		 background: white;
+	     margin: 10px 0px;
+		 padding: 5px;
+	     color: black;
+	     font-size: 22px;
+	     text-align: justify;
+        }
+		.workoutpic
+		{
+		 position: relative;
+		 float: right;
+		 margin: 45px 10px;
+		 box-shadow: 5px 5px 5px gold;
+		}
+		.workoutpic:hover
+		{
+		 box-shadow: 5px 5px 5px navy;
+		}
+         /*---Button---*/
+        .button1
+        { 
+	     border-radius: 5px;
+	     background-color: white;
+	     border: 1px solid white;
+	     color: black;
+	     box-shadow: 5px 5px 5px gray;
+	     display: inline-block;
+	     margin-bottom: 10px;
+	     cursor: pointer;
+	     position: relative;
+	     left: 10%;
+         top: 30px;
+	     padding: 2px 10px;
+	     text-align: center;
+	     text-decoration: none;
+	     text-shadow: 2px 2px 8px gray;
+	     font-family: 'Bigshot One';
+	     font-size: 22px;
+        }
+        .button1:hover
+        {
+	     border-radius: 5px;
+	     border: #FFFAF0;
+	     background-color: #FFFAF0;
+	     color: gray;
+	     text-shadow: 2px 2px 2px pink;
+        }
+        .button2
+        {
+	     border-radius: 5px;
+	     background-color: white;
+	     border: 1px solid white;
+	     color: black;
+	     box-shadow: 5px 5px 5px gray;
+	     display: inline-block;
+	     margin-bottom: 10px;
+	     cursor: pointer;
+	     position: relative;
+	     left: 75%;
+         top: 30px;
+	     padding: 2px 10px;
+	     text-align: center;
+	     text-decoration: none;
+	     text-shadow: 2px 2px 8px gray;
+	     font-family: 'Bigshot One';
+	     font-size: 22px;
+        }
+        .button2:hover
+        {
+	     border-radius: 5px;
+	     border: #FFFAF0;
+	     background-color: #FFFAF0;
+	     color: gray;
+	     text-shadow: 2px 2px 2px pink;
+        }
+	 </style>
+ </head>
+ <body>
+  <header>
+   <!---NavigationBar--->
+<div class="nav-bar">
+      <div class="logo">
+	     <a href="LYF Home.html"><img src="LYF Logo.png" alt="LYF LOGO"></a>
+	  </div>
+	  <div class="nav-link">
+        <ul>
+	      <li class="nav-link">
+             <a class="home" href="LYF Home.html">Home</a>
+          </li>
+          <li class="nav-link">
+             <a class="about_us" href="LYF About Us.html">About Us</a>
+          </li>
+	      <li class="nav-link active">
+             <a class="services" href="LYF Services.html">Services</a>
+	      </li>
+	      <li class="nav-link">
+             <a class="products" href="LYF Products.html">Products</a>
+          </li>
+	      <li class="nav-link">
+             <a class="our_team" href="LYF Home.html#section2">Our Team</a>
+          </li>
+	      <li class="nav-link">
+             <a class="corporate" href="LYF Home.html#section3">Corporate</a>
+	      </li>
+	      <li class="nav-link">
+             <a class="contact_us" href="LYF Home.html#section4">Contact Us</a>
+          </li>
+	    </ul>
+		</div>
+	</div>
+  </header>
+ 
+    <!---Button--->
+    <div class="button">
+	 <a class="button1" href="LYF Services.html"><i class="fa fa-angle-double-left"></i>Services</a>
+	 <a class="button2" href="LYF Recipes.html">Recipes<i class="fa fa-angle-double-right"></i></a>
+	</div>
+	<div class="title">
+	 <h1>Beginner Friendly</h1>
+	     <p><b>
+		     1. BASIC movements is used, they are not too complicated or hard to perform.
+             <br>			 
+             2. The workout sequences REPEAT, giving you a chance to get used to the movements & get a better feeling for them.
+             <br>			 
+             3. A couple of BREAKS between the 2 or 4 minutes of workout sequences. It's time to catch a breath!
+             <br>			 
+			 4. Includes warm up exercises.
+			 <br>
+			 5. includes a cool down sequence in the end.
+		 </p></b>
+	     <a class="workout" href="https://www.youtube.com/watch?v=UItWltVZZmE" target="_blank"><img class="workoutpic" src="begin.jpeg" alt="pamelabegin" height="220" width="auto"></a> 
+	</div>
+	<br>
+	<div class="title">
+	 <h1>Males Medium Level</h1>
+	     <p><b>
+		   Switching up your workouts is recommended to give your muscles enough time to recover and to hit them from different angles.
+		   It targets the muscles of your entire body and gives you a good sweat.
+		 </p></b>
+	     <a class="workout" href="https://www.youtube.com/watch?v=Y2eOW7XYWxc" target="_blank"><img class="workoutpic" src="malemedium.jpeg" alt="pamelamale" height="220" width="auto"></a> 
+	</div>
+	<br>
+	<div class="title">
+	 <h1>Females Medium Level</h1>
+	     <p><b>
+		   Switching up your workouts is recommended to give your muscles enough time to recover and to hit them from different angles.
+		   It targets the muscles of your entire body and gives you a good sweat.
+		 </p></b>
+	     <a class="workout" href="https://www.youtube.com/watch?v=UBMk30rjy0o" target="_blank"><img class="workoutpic" src="femalemedium.jpeg" alt="pamelafemale" height="220" width="auto"></a> 
+	</div>
+	<br>
+    <div class="title">
+	 <h1>High Intensity</h1>
+	     <p><b>
+		   You will definitely sweat and most likely struggle during those 15 minutes .. but that's alright. Just don't quit.
+            <br>		   
+		   But this killer workout burns a lot of calories - and that's what we need sometimes, right? 
+		   <br>
+		   In those 15min, you will burn anything between 80-150kcal, depending on your weight, height and fitness level.
+		 </p></b>
+	     <a class="workout" href="https://www.youtube.com/watch?v=1skBf6h2ksI" target="_blank"><img class="workoutpic" src="highintense.jpeg" alt="pamelahigh" height="220" width="auto"></a> 
+	</div>
+	<div class="title">
+	 <h1>Stretch</h1>
+	     <p><b>
+		   This helps to increase your mobility and flexibility.
+		 </p></b>
+	     <a class="workout" href="https://www.youtube.com/watch?v=_IoYLhrTBqY" target="_blank"><img class="workoutpic" src="stretch.jpeg" alt="pamelastretch" height="220" width="auto"></a> 
+	</div>
+ </body>
+</html>
